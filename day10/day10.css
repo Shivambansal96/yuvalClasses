@@ -5,3 +5,64 @@ div {
     border: solid 2px red;
 }
 
+p:hover {
+  background-color: black;
+
+  color: red;
+  font-size: 32px;
+
+  cursor: crosshair;
+} 
+
+button:active {
+
+    color: red;
+    /* background-color: black; */
+    border: solid 2px cyan;
+}
+
+input:hover  {
+    color: blue;
+}
+
+input:focus {
+    color: red;
+
+    background-color: black;
+    border: solid 2px cyan;
+}
+
+input::placeholder {
+    color: green;
+}
+
+input:required {
+    border: double 2px red;
+}
+
+input:disabled {
+    /* color: purple; */
+    /* background-color: black; */
+    cursor: default;
+}
+
+input:checked {
+    accent-color: red;
+}
+
+a:link {
+    color: red;
+}
+
+a {
+    color: purple;
+}
+
+a:visited {
+    color: gray;
+}
+
+
+a:active {
+    color: aquamarine;
+}
