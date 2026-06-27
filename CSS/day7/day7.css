@@ -1,0 +1,57 @@
+/* h1 {
+    color: blue;
+    background-color: green;
+}
+ */
+
+
+ h1 {
+            /* background-color: black; */
+            font-family: 'Courier New', Courier, monospace;
+            /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+            /* font-family: fantasy; */
+            font-size: xx-large; /* 32 */
+            font-weight: bolder;
+            /* font-style: italic; */
+            font-style: oblique;
+            /* font-style: unset; */
+            /* font-display: block; */
+        
+}
+
+#para {
+    color: royalblue;
+    border-color: black;
+    /* border-width: 20px; */
+    border-style: dotted;
+    border-style: double;
+    border-style: groove;
+    border-style: hidden;
+}
+
+#circle {
+    /* border: solid red; */
+    /* border-style: dotted;
+    border-color: red;
+    border-width: 12px; */
+    /* border: dotted black 12px; */
+    height: 120px;
+    width: 1200px;
+    /* border-left: 350px; */
+    /* border-radius: 50%; */
+    background-image: url("https://shivambansal.co.in/images/shivam_bansal.png");
+    height: 450px;
+    width: 450px;
+}
+
+/* img {
+    height: 250px;
+    width: 250px;
+} */
+
+
+#circle {
+        /* overflow: hidden; */
+        scrollbar-width: auto;
+        overflow: scroll;
+}
