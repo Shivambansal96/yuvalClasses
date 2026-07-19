@@ -1,0 +1,102 @@
+p {
+    animation-name: demo;
+    animation-duration: 5s;
+    /* animation-timing-function: linear; */
+    animation-iteration-count: infinite;
+
+    display: flex;
+}
+
+@keyframes demo {
+    from {
+        color: black; 
+        justify-content: start;
+        /* transform: rotate(0deg); */
+        transform: rotateX(0deg);
+
+    }
+    
+    to {
+        color: blue;
+
+        /* transform: rotate(10deg); */
+        /* transform: rotateX(360deg); */
+        transform: rotateY(360deg);
+
+        
+        transition: 10s;
+        transition-duration: 10s;
+        transition-timing-function: step-start;
+        /* justify-content: end; */
+        /* margin-left: 500px; */
+
+        /* font-size: 42px; */
+    }
+}
+
+
+
+
+
+
+/* --------------------------------- */
+
+body, h1 {
+    
+    animation: changeColor 1s infinite ;
+    animation-timing-function: ease-out;
+}
+
+
+#box {
+    height: 40px;
+    width: 80px;
+    background-color: red;
+    border-radius: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation: changeColor 1s infinite ;
+    animation-timing-function: ease-out;
+}
+
+@keyframes changeColor {
+
+    /* from {
+        background-color: red;
+
+    }
+
+    to {
+        background-color: green;
+        margin-left: 600px;
+    } */
+
+
+    20% {
+        background-color: red;
+        color: blue;
+    }
+
+        40% {
+        background-color: orange;
+        color: black;
+    }
+
+        60% {
+        background-color: yellow;
+        color: green;
+    }
+
+        80% {
+        background-color: green;
+        color: cyan;
+    }
+
+        100% {
+        background-color: blue;
+        color: maroon;
+    }
+}
