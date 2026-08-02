@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+#mainContainer {
+    height: 98vh;
+    width: 99vw;
+}
+
+#navbar * {
+    border: solid 2px red;
+}
+
+#navbar {
+    border: solid 2px royalblue;
+    background-color: #2874F0;
+
+    height: 45px;
+
+    display: flex;
+    /* gap: 45px; */
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#navbar div {
+    height: 45px;
+}
